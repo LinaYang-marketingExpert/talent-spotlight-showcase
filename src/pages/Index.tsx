@@ -1,8 +1,8 @@
-
 import React, { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import Article from "@/components/Article";
 import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
@@ -44,6 +44,7 @@ const Index: React.FC = () => {
       <Navbar />
       <Hero />
       <About />
+      <Article />
       <Experience />
       <Skills />
       <Contact />

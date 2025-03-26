@@ -1,6 +1,7 @@
 
 import React from "react";
 import FadeIn from "./animations/FadeIn";
+import avatarSrc from "../assets/avatar/lina.png";
 
 const Hero: React.FC = () => {
   return (
@@ -48,7 +49,7 @@ const Hero: React.FC = () => {
               <div className="relative">
                 <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
                   <img 
-                    src="/avatar.png" 
+                    src={avatarSrc} 
                     alt="Lina Yang" 
                     className="w-full h-full object-cover"
                     onError={(e) => {
